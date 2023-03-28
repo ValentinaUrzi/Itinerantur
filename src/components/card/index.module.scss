@@ -1,0 +1,31 @@
+.Card{
+    border: 1px solid $primary-text-color;
+    padding: 10px;
+    width: 300px;
+    height: 420px;
+    border-radius: $radius;
+    position: relative;
+    
+    h2{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    p{
+        margin-top:200px;
+        text-align: center;
+        position: absolute;
+        top: 120px;
+        padding: 10px;
+    }
+    
+    img{
+        position: absolute;
+        top: 80px;
+        left: 15px;
+        margin-top: 10px;
+        height: 180px;
+        width: 290px;
+        object-fit: cover;
+    }
+}

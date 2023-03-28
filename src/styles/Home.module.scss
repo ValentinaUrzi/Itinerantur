@@ -1,0 +1,13 @@
+.Home{
+    @include flex-box(column, space-between, center);
+    background-color: $primary; 
+    color: $primary-text-color;
+    height: $max-height;
+
+    .wrapper{
+        @include flex-box(row, center, center);
+        margin-top: $margin-top;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,11 @@
+.Footer{
+    @include flex-box(column, center, center);
+    color: $primary-text-color;
+    font-size: $font-size-standard;
+    text-align: center;
+    margin-top: $margin-top;
+
+    img{
+        height: 40px;
+    }
+}
