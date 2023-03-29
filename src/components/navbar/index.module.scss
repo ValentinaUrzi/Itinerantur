@@ -1,0 +1,29 @@
+.Navbar{
+@include flex-box(row, space-between, center);
+background-color: $primary;
+color: white;
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+
+    img{
+    height: 40px;
+    }
+
+    ul{
+     @include flex-box(row, center, center);
+     gap: $standard-gap;
+     padding-right: $standard-padding;
+
+     li{
+         list-style-type: none;
+         
+         a{
+            color: $primary-text-color;
+            text-decoration: none;
+            cursor: pointer;
+            }
+     }
+         
+    }
+}

@@ -1,10 +1,12 @@
 .Card{
     border: 1px solid $primary-text-color;
+    color: $primary-text-color;
     padding: 10px;
     width: 300px;
     height: 420px;
     border-radius: $radius;
     position: relative;
+    cursor: pointer;
     
     h2{
         margin-top: 10px;

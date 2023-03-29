@@ -1,0 +1,6 @@
+.CardList{
+    @include flex-box(row, center, center);
+        flex-wrap: wrap;
+        padding-top: $standard-padding;
+        gap: 20px;
+}

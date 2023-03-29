@@ -1,9 +1,10 @@
 .Footer{
     @include flex-box(column, center, center);
+    background-color: $primary;
     color: $primary-text-color;
     font-size: $font-size-standard;
     text-align: center;
-    margin-top: $margin-top;
+    padding-top: $standard-padding;
 
     img{
         height: 40px;

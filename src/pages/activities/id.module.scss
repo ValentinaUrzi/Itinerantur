@@ -1,0 +1,19 @@
+.Activity{
+    color: $primary-text-color;
+    background-color: $tertiary;
+    padding: $standard-padding;
+    border-radius: $radius;
+    width: 1100px;
+    
+    
+    
+    .wrapper{
+        @include flex-box(row, left, center);
+        margin-top: $margin-top;
+
+        p{
+            padding: $standard-padding;
+            width: 600px;
+        }
+    }
+}
