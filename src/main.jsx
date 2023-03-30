@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Activities from './pages/activities'
 import Activity from "./pages/activities/id";
 import About from './pages/About'
-// import City from './pages/City'
+import SearchActivity from './pages/searchActivity/name'
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -19,9 +19,8 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<Home />} />
     <Route path="activities" element={<Activities />} />
     <Route path="activities/:id" element={<Activity />} />
+    <Route path="activity/search/:name" element={<SearchActivity />} />
     <Route path="about" element={<About />} />
-    {/* <Route path="cities" element={<City />} /> */}
-    {/* <Route path="city/:id" element={<City />} /> */}
   </Route>
 ))
 

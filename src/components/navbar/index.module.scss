@@ -12,7 +12,7 @@ box-sizing: border-box;
 
     ul{
      @include flex-box(row, center, center);
-     gap: $standard-gap;
+     gap: 10px;
      padding-right: $standard-padding;
 
      li{
@@ -25,5 +25,21 @@ box-sizing: border-box;
             }
      }
          
+     input{
+        border-radius: $radius;
+        padding: 5px;
+        width: 200px;
+        position: absolute;
+        top: 80px;
+        left: 135px;
     }
+        @media screen and (min-width: 768px) {
+            input{
+            position: relative;
+            top: 0;
+            left: 0;
+            }
+        }
+    }
+
 }

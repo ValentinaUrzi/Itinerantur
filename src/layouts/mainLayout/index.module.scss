@@ -2,8 +2,10 @@
     
     section{
         padding: $standard-padding;
-        height: 1000px;
+        min-height: 100vh;
         background-color: $primary;
+        color: $primary-text-color;
+        font-size: 18px;
     }
 
 }
