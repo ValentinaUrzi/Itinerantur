@@ -1,11 +1,13 @@
 .MainLayout{
     
     section{
+        @include flex-box(row, center, start);
         padding: $standard-padding;
         min-height: 100vh;
         background-color: $primary;
         color: $primary-text-color;
         font-size: 18px;
+        text-align: center;
     }
 
 }

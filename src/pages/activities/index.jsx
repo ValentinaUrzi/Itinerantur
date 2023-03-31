@@ -14,6 +14,7 @@ export default function Activities() {
 
     return (
         <div className={styles.Activities}>
+            <h1>Activities</h1>
             <CardList data={data} />
         </div>
     )

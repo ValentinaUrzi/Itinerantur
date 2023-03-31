@@ -16,7 +16,7 @@ const Card = ({ data }) => {
     useEffect(() => {},[])
 
     const onHandleClick = () => {
-        selectId(`${data.id}`);
+        selectId(`/activities/${data.id}`);
     };
     return (
         <div onClick={onHandleClick} className={styles.Card}>

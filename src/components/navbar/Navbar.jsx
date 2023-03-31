@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const searchActivity = (e) => {
         e.preventDefault()
-        countryName(e.target[0].value ? "activity/search/" + e.target[0].value: "/activities")
+        countryName(`activity/search?name=${e.target[0].value}`)
     }
 
     return (
